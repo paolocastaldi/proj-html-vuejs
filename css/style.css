@@ -1,0 +1,100 @@
+/* COLORI */
+:root {
+    --color-white: #fefefe;
+    --color-green: #22ad96;
+    --color-purple: #3f3a64;
+    --color-grey-light: #f5f7fa;
+    --color-grey-yellow: #f8f8f8;
+    --color-baige: #f5f1ed;
+    --color-dark-light: #696969;
+    --color-purple-light: #8c89a2;
+    --color-grey-dark: #dedbd9;
+    --color-grey: #e9e6e3;
+}
+
+.bg-personal-grey {
+    background-color: var(--color-grey);
+}
+
+.bg-personal-grey-light {
+    background-color: var(--color-grey-light);
+}
+
+.bg-personal-grey-yellow {
+    background-color: var(--color-grey-yellow);
+}
+
+.bg-personal-white {
+    background-color: var(--color-white);
+}
+
+.bg-personal-baige {
+    background-color: var(--color-baige);
+}
+
+.bg-personal-grey-dark {
+    background-color: var(--color-grey-dark);
+}
+
+.bg-personal-green {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+
+.p-color-green {
+    color: var(--color-green);
+}
+
+.p-color-purple {
+    color: var(--color-purple);
+}
+
+.p-color-light-dark {
+    color: var(--color-dark-light);
+}
+
+/* RESET */
+ul li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul li i {
+    color: var(--color-green);
+}
+
+/* BOTTONI */
+.btn-per-green {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+
+.hov-purple {
+    color: var(--color-purple);
+}
+
+/* HEADER*/
+.logo {
+    width: 15%;
+}
+
+/* MAIN */
+
+
+/* SEZIONE COMPLETE YOUR DREAMS*/
+.tiny-menu {
+    background-color: var(--color-white);
+    top: 50px;
+    right: 0;
+}
+
+.bt-active:hover {
+    background-color: var(--color-purple);
+}
+
+
+.active-square:hover {
+    background-color: var(--color-white);
+    border-left: 2px solid var(--color-green);
+}
