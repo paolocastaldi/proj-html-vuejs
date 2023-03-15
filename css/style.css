@@ -106,3 +106,31 @@ ul li i {
     top: 100px;
     left: -35px;
 }
+
+/* SEZIONE CORSI*/
+.badge-cost {
+    background-color: var(--color-green);
+    color: var(--color-grey-light);
+    font-size: 1.3rem;
+    width: 85px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.img-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 0.9rem;
+}
+
+.bg-personal-white-active:hover {
+    background-color: var(--color-white);
+    cursor: pointer;
+}
