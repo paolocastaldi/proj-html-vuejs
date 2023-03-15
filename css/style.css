@@ -174,3 +174,31 @@ ul li i {
     left: 0;
     transform: translate(-30px);
 }
+
+/* SEZIONE PARTNER */
+.img-parteners {
+    border-radius: 50%;
+    width: 45%;
+}
+
+
+.point {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--color-grey-dark);
+    margin-left: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.point-active {
+    background-color: var(--color-dark-light);
+    width: 15px;
+    height: 15px;
+}
+
+.hh {
+    height: 100%;
+}
