@@ -8,7 +8,7 @@
     --color-baige: #f5f1ed;
     --color-dark-light: #696969;
     --color-purple-light: #8c89a2;
-    --color-grey-dark: #dedbd9;
+    --color-grey-dark: #f0efef;
     --color-grey: #e9e6e3;
 }
 
@@ -201,4 +201,24 @@ ul li i {
 
 .hh {
     height: 100%;
+}
+
+/* SEZIONE START TODAY*/
+.pretty-01 {
+    width: 12%;
+    height: 12%;
+    top: 130px;
+    left: 30px;
+}
+
+.pretty-02 {
+    width: 12%;
+    bottom: 0;
+    right: 0;
+
+}
+
+/* FOOTER */
+.padd {
+    padding-top: 20px;
 }
