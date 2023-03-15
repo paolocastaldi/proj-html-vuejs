@@ -68,6 +68,7 @@ ul li i {
 .btn-per-green {
     background-color: var(--color-green);
     color: var(--color-white);
+    border-color: #22ad96;
 }
 
 .hov-purple {
@@ -133,4 +134,43 @@ ul li i {
 .bg-personal-white-active:hover {
     background-color: var(--color-white);
     cursor: pointer;
+}
+
+/* SEZIONE LEARN AT YOUR OWN PACE*/
+
+.back-hero-cloud {
+    height: 90%;
+    z-index: -1;
+    top: 100px;
+    left: 100px;
+}
+
+.back-hero-shape {
+    z-index: -1;
+    top: 55%;
+    right: 20%;
+
+}
+
+/* SEZIONE LEARN MOBILE*/
+
+.back-home-cloud {
+    height: 90%;
+    z-index: -1;
+    top: 90px;
+    left: 50px;
+}
+
+.back-home-shape {
+    z-index: -1;
+    top: 57%;
+    right: 12%;
+
+}
+
+.back-home-line {
+    z-index: -1;
+    top: 45%;
+    left: 0;
+    transform: translate(-30px);
 }
